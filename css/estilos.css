@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Vollkorn+SC:wght@900&display=swap');
+  body{            
+      margin-left: 0;
+      margin-right: 0;
+    
+      line-height : 20px;
+  }
+  .cuerpo {
+    margin: 0;
+    padding: 15px;
+    background-color: lightgray;
+  }
+  .cuerpo  h2, .art {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .art {
+    background: white;
+  }
+  
+  .art  h3, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  h2{
+      
+      
+      font-family: 'Vollkorn SC', serif;
+      text-transform: uppercase;
+  }
+  h3{
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .nuevoColor{
+      background-color: #000000;
+
+  }
+  .oldColor{
+      background-color: #2596be;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  
+  header {
+    background-color: #2596be;
+    color: #ffffff;
+    padding: 15px;
+    left: 0;
+    text-align:center;
+  }
+          
+  footer {
+      text-align: center;
+      text-decoration: none;
+      background-color: #333333;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 16px;
+      left: 0;
+      
+  }
+  .pieDePagina {
+          font-size: 12px;
+          color:#CCCCFF;
+          display: inline;
+  }
+  .competencias{
+      line-height : 25px;
+  }
+/* a:link{
+  text-decoration: none;
+  color: brown;
+ } 
+ a:visited{
+  text-decoration: none;
+  color:hotpink;
+ }
+ a:hover{
+  text-decoration: underline;
+  color:darkblue;
+ }
+ a:active{
+  text-decoration: none;
+  color:darkslateblue;
+ }*/
+ .fech{
+  color:#2596be;
+  font-style: italic;
+  font-weight: bold;
+ }
+ .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  font-stretch: normal;
+  overflow: hidden;
+
+ }
+ .menu li{
+  float:left;
+  border-right: 1px solid #EEEEEF;
+
+ }
+ .menu li a{
+  display: block;    
+  color: #CCCCFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+ .menu li a.active{
+  background-color: #CCCCFF;
+  color:#000000;
+  font-weight: bold;
+ }
+ .menu li a:hover:not(.active){
+  background-color: #F5F5F5;
+  color: #0d0d18;
+  text-decoration: underline;
+ }
+ .detalles{
+  background-color: chartreuse;
+ }
