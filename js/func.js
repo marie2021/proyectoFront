@@ -6,9 +6,7 @@ const postulante={
     get nombreCompleto(){
         return this.nombre+"  "+this.apellido;
     }
-    /*nombreCompleto:function(){
-        return this.nombre+"  "+this.apellido;
-    }*/
+    
 };
 document.getElementById("colorHeader").addEventListener('click',function(){
     console.log("cambio de color del header");
