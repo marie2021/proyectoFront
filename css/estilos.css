@@ -50,10 +50,19 @@
   .oldColor{
       background-color: #6e0707;
   }
-  
- /* Para celulares */
+
+  /* Para celulares */  
+ @media screen and (max-width: 600px) {
+
  [class*="col-"] {
   width: 100%;
+ }
+.menu li {
+  float:none;
+  border-right: 1px solid #EEEEEF;
+  width: 100%;
+
+ }
 }
 /* Para tablets */
  @media only screen and (min-width: 600px) {
