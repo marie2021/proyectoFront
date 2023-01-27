@@ -43,7 +43,7 @@
 
   }
   .oldColor{
-      background-color: #2596be;
+      background-color: #6e0707;
   }
   [class*="col-"] {
     float: left;
@@ -65,7 +65,7 @@
   
   
   header {
-    background-color: #2596be;
+    background-color: #6e0707;
     color: #ffffff;
     padding: 15px;
     left: 0;
@@ -93,7 +93,7 @@
   }
 
   .fech{
-  color:#2596be;
+  color:#6e0707;
   font-style: italic;
   font-weight: bold;
  }
@@ -129,5 +129,5 @@
   text-decoration: underline;
  }
  .detalles{
-  background-color: chartreuse;
+  background-color: yellow;
  }
